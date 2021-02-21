@@ -23,7 +23,7 @@ const argv = require('yargs')
     .option('d', {
         alias: 'directorio',
         type: 'string',
-        default: '',
+        default: './salida',
         demandOption: true,
         describe: 'Directorio donde se guardará el archivo'
     })
